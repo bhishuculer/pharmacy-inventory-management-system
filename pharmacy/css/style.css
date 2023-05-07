@@ -1,0 +1,74 @@
+a.small_btn{
+
+  font-size: 5px;
+}
+.content{
+	margin:auto;
+	width: 1100px;
+}
+
+ .notification {
+  background-color: #233488;
+  text-decoration: none;
+  color: red; 
+  padding: 10px 26px;
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+}
+.icon-exclamation-sign.badge{
+  position: absolute;
+  top: -1px;
+  right: 1px;
+  padding: 4px 7px 4px 5px;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+    
+}
+.notification:hover {
+  cursor: pointer;
+}
+
+.notification .badge {
+  position: absolute;
+  top: -1px;
+  right: 1px;
+  padding: 4px 7px 4px 5px;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+}
+.nav li a{background-color: #0bacdc!important;}
+.navbar-inner{border:transparent!important;padding: 10px 0px;}
+.mt-35{margin-top:35px;}
+.bg-blufd{background: #0bacdc3d;}
+.contentheader{background: #f1f1f1!important;}
+.row{margin-left:0px!important;display: flex;
+  flex-wrap: nowrap;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;}
+  .col-md-6 {width: 50%;}
+.wid-inpt{width: 80%;margin-bottom: 25px!important;}
+.pdn-left{padding-left: 30px;}
+.close img{opacity: 1;}
+#facebox .popup{border: 3px solid rgb(255 254 254)!important;}
+.cntr_btn{text-align: center;}
+
+@media only screen and (max-width: 979px) {
+
+  .notification .badge{
+
+  position: relative;
+  top: -9px;
+  right: 1px;
+  padding: 4px 7px 4px 5px;
+  border-radius: 50%;
+  background-color: red;
+  color: white;    
+
+   }
+}
+
